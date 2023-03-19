@@ -1,33 +1,35 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+<!DOCTYPE html>
+<html>
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+<head>
+	<title>
+		How to Create a Reset Button
+		in form using HTML?
+	</title>
+</head>
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+<body style="text-align:center;">
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+	<h1 style="color:green;">
+		GeeksforGeeks
+	</h1>
 
-### VS Code ###
-.vscode/
+	<h2>
+		How to Create a Reset Button
+		in form using HTML?
+	</h2>
+
+	<form>
+		Email ID:
+		<input type="email">
+		<br>
+		<br> Password:
+		<input type="password">
+		<br><br>
+
+		<input type="submit">
+		<input type="reset">
+	</form>
+</body>
+
+</html>
